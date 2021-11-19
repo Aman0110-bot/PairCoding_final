@@ -5,15 +5,15 @@ var ot = require('ot');
 var roomList = {};
 
 module.exports = function (server) {
-    var str = `//Write your code here and collaborate in real time\n
-    
+    var str = `//Write your code here \n
+
     #include<iostream>
     using namespace std;
     int main()
     {
         string s;
         cin>>s;
-        cout<<"Holla "<<s<<endl;
+        cout<<"Hello "<<s<<endl;
     }`;
 
 
@@ -54,4 +54,3 @@ module.exports = function (server) {
         });
     })
 }
-
